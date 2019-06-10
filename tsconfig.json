@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "jsx": "react",
+        "noImplicitReturns": true,
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "module": "esnext",
+        "target": "es6",
+        "lib": ["dom", "es2017"],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "exclude": ["node_modules"],
+    "include": ["./src/**/*"]
+}
+

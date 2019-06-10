@@ -1,0 +1,53 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #666A86;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* .banner {
+    font-size: 4rem;
+    text-align: center;
+    padding: 20px;
+    background-color: #92B6B1;
+} */
+
+.App {
+    max-width: 400px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+nav {
+    padding: 5px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.book__list {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.book__list ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.book__list li {
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
