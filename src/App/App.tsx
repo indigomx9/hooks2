@@ -7,7 +7,6 @@ import { ThemeContextProvider } from "../context/ThemeContext";
 export const App = () => (
     <main className="App">
         <ThemeContextProvider>
-            <h1 className="banner">Hooks</h1>
             <Navbar />
             <BookList />
         </ThemeContextProvider>
